@@ -1,10 +1,8 @@
 import glob
 import os
 
-current_dir = os.getcwd()
-
 def get_mapping():
-    pocket = glob.glob(current_dir + '/data/Data_Vidok_Infer/*_pocket.pdb')[0]
+    pocket = glob.glob('../Vidok_Crawler/Data_Vidok_Infer/*_pocket.pdb')[0]
     lines = open(pocket,'r').readlines()
     mapping_index = {}
     index = 0

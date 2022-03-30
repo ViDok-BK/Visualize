@@ -13,7 +13,7 @@ from mapping_pocket import get_mapping
 # current_dir = os.getcwd()
 
 PATH_INTERACT = '../interactions/'
-PATH_DATA = '../Vidok_Cralwer/complex_ligand/'
+PATH_DATA = '../Vidok_Crawler/complex_ligand/'
 
 
 def parse_type_interaction(list_interactions):
