@@ -7,13 +7,13 @@ import re
 import os
 
 from utils.PDBReader import ComplexReader
-from visualize.mapping_pocket import get_mapping
+from mapping_pocket import get_mapping
 
 
-current_dir = os.getcwd()
+# current_dir = os.getcwd()
 
-PATH_INTERACT = current_dir + '/interactions/'
-PATH_DATA = current_dir + '/Vidok_Cralwer/complex_ligand/'
+PATH_INTERACT = '../interactions/'
+PATH_DATA = '../Vidok_Cralwer/complex_ligand/'
 
 
 def parse_type_interaction(list_interactions):
